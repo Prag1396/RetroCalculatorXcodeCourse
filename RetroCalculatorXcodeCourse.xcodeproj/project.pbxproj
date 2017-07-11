@@ -14,6 +14,8 @@
 		DBDB23491F155DE5006084C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDB23471F155DE5006084C2 /* LaunchScreen.storyboard */; };
 		DBDB23541F155DE5006084C2 /* RetroCalculatorXcodeCourseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDB23531F155DE5006084C2 /* RetroCalculatorXcodeCourseTests.swift */; };
 		DBDB235F1F155DE5006084C2 /* RetroCalculatorXcodeCourseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDB235E1F155DE5006084C2 /* RetroCalculatorXcodeCourseUITests.swift */; };
+		DBDB23781F157B6A006084C2 /* La_Mamucha.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBDB23771F157B6A006084C2 /* La_Mamucha.ttf */; };
+		DBDB237A1F157EFE006084C2 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = DBDB23791F157EFE006084C2 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		DBDB235A1F155DE5006084C2 /* RetroCalculatorXcodeCourseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorXcodeCourseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDB235E1F155DE5006084C2 /* RetroCalculatorXcodeCourseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorXcodeCourseUITests.swift; sourceTree = "<group>"; };
 		DBDB23601F155DE5006084C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDB23771F157B6A006084C2 /* La_Mamucha.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = La_Mamucha.ttf; sourceTree = "<group>"; };
+		DBDB23791F157EFE006084C2 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		DBDB233D1F155DE5006084C2 /* RetroCalculatorXcodeCourse */ = {
 			isa = PBXGroup;
 			children = (
+				DBDB23771F157B6A006084C2 /* La_Mamucha.ttf */,
+				DBDB23791F157EFE006084C2 /* btn.wav */,
 				DBDB233E1F155DE5006084C2 /* AppDelegate.swift */,
 				DBDB23401F155DE5006084C2 /* ViewController.swift */,
 				DBDB23421F155DE5006084C2 /* Main.storyboard */,
@@ -233,8 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDB237A1F157EFE006084C2 /* btn.wav in Resources */,
 				DBDB23491F155DE5006084C2 /* LaunchScreen.storyboard in Resources */,
 				DBDB23461F155DE5006084C2 /* Assets.xcassets in Resources */,
+				DBDB23781F157B6A006084C2 /* La_Mamucha.ttf in Resources */,
 				DBDB23441F155DE5006084C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +522,7 @@
 				DBDB23651F155DE5006084C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBDB23661F155DE5006084C2 /* Build configuration list for PBXNativeTarget "RetroCalculatorXcodeCourseTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				DBDB23681F155DE5006084C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBDB23691F155DE5006084C2 /* Build configuration list for PBXNativeTarget "RetroCalculatorXcodeCourseUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				DBDB236B1F155DE5006084C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
