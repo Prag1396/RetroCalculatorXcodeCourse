@@ -40,7 +40,6 @@
 		DBDB23431F155DE5006084C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBDB23451F155DE5006084C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBDB23481F155DE5006084C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DBDB234A1F155DE5006084C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBDB234F1F155DE5006084C2 /* RetroCalculatorXcodeCourseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorXcodeCourseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDB23531F155DE5006084C2 /* RetroCalculatorXcodeCourseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorXcodeCourseTests.swift; sourceTree = "<group>"; };
 		DBDB23551F155DE5006084C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +101,6 @@
 				DBDB23421F155DE5006084C2 /* Main.storyboard */,
 				DBDB23451F155DE5006084C2 /* Assets.xcassets */,
 				DBDB23471F155DE5006084C2 /* LaunchScreen.storyboard */,
-				DBDB234A1F155DE5006084C2 /* Info.plist */,
 			);
 			path = RetroCalculatorXcodeCourse;
 			sourceTree = "<group>";
