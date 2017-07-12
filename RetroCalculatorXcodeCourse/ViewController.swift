@@ -43,7 +43,7 @@ class ViewController: UIViewController {
             print(err)
         }
         
-        outputLabel.text = "0"
+        outputLabel.text = "\(Double(0))"
     }
     
     override func didReceiveMemoryWarning() {
@@ -51,8 +51,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func clearButtonPressed(_ sender: Any) {
+         clearNumbers()
+    
+    }
+    
     
     @IBAction func numberPressed(_ sender: UIButton) {
+        
         runningNumber += "\(sender.tag)"
         outputLabel.text = runningNumber
         playSound()
@@ -76,6 +82,17 @@ class ViewController: UIViewController {
     
     @IBAction func onEqualsPressed(_ sender: UIButton) {
         processOperation(operation: currentOperation)
+    }
+    
+    func clearNumbers() {
+        playSound()
+        runningNumber = ""
+        currentOperation = Operation.Empty
+        leftValString = ""
+        rightValString = ""
+        result = ""
+        outputLabel.text = "\(Double(0))"
+        
     }
     
     func playSound() {

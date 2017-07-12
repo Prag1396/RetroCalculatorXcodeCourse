@@ -36,9 +36,9 @@
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="dDb-HF-JGG">
-                                <rect key="frame" x="51" y="28" width="218" height="57"/>
+                                <rect key="frame" x="35" y="28" width="170" height="57"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="218" id="HFb-Co-chV"/>
+                                    <constraint firstAttribute="width" constant="170" id="iRX-F9-YJH"/>
                                     <constraint firstAttribute="height" constant="57" id="pRh-50-B8L"/>
                                 </constraints>
                             </imageView>
@@ -245,7 +245,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0UN-V5-bmZ">
-                                <rect key="frame" x="59" y="40" width="202" height="33"/>
+                                <rect key="frame" x="43" y="40" width="154" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="uQZ-pf-fo0"/>
                                 </constraints>
@@ -253,14 +253,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Phe-4t-xPa" userLabel="Clear">
+                                <rect key="frame" x="215" y="43" width="98" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="hw7-lh-joQ"/>
+                                    <constraint firstAttribute="width" constant="98" id="us8-oh-ZWc"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="clear"/>
+                                <connections>
+                                    <action selector="clearButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eCy-Eg-6A5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DME-Ri-0jl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="19w-RR-j2t"/>
                             <constraint firstItem="t8Y-VU-InG" firstAttribute="centerY" secondItem="osU-3h-urq" secondAttribute="centerY" id="6aY-d7-QS1"/>
                             <constraint firstItem="osU-3h-urq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bdu-L6-Eym"/>
+                            <constraint firstItem="Phe-4t-xPa" firstAttribute="leading" secondItem="dDb-HF-JGG" secondAttribute="trailing" constant="10" id="BjK-8c-L1Z"/>
                             <constraint firstItem="0UN-V5-bmZ" firstAttribute="leading" secondItem="dDb-HF-JGG" secondAttribute="leading" constant="8" id="K3Q-hl-T5t"/>
-                            <constraint firstItem="dDb-HF-JGG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NV1-mt-qhN"/>
+                            <constraint firstItem="dDb-HF-JGG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-40" id="NV1-mt-qhN"/>
                             <constraint firstItem="osU-3h-urq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="30" id="OEl-Y1-GgL"/>
                             <constraint firstAttribute="trailing" secondItem="DME-Ri-0jl" secondAttribute="trailing" id="SM4-6S-FF8"/>
                             <constraint firstItem="URO-3b-c1x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="WMf-bq-btv"/>
@@ -269,6 +281,7 @@
                             <constraint firstItem="osU-3h-urq" firstAttribute="top" secondItem="dDb-HF-JGG" secondAttribute="bottom" constant="33" id="eyM-Ln-jCA"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="URO-3b-c1x" secondAttribute="bottom" id="fDB-ey-47a"/>
                             <constraint firstAttribute="trailing" secondItem="URO-3b-c1x" secondAttribute="trailing" id="fst-hv-Eok"/>
+                            <constraint firstItem="osU-3h-urq" firstAttribute="top" secondItem="Phe-4t-xPa" secondAttribute="bottom" constant="47" id="gPj-9y-k6l"/>
                             <constraint firstAttribute="bottom" secondItem="DME-Ri-0jl" secondAttribute="bottom" id="qsv-H1-8sv"/>
                             <constraint firstItem="t8Y-VU-InG" firstAttribute="centerX" secondItem="osU-3h-urq" secondAttribute="centerX" id="wDE-XA-PWO"/>
                             <constraint firstItem="0UN-V5-bmZ" firstAttribute="trailing" secondItem="dDb-HF-JGG" secondAttribute="trailing" constant="-8" id="zvo-gC-eJH"/>
@@ -296,6 +309,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
