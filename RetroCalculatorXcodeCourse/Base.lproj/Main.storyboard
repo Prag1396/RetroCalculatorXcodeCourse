@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -23,34 +23,34 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg" translatesAutoresizingMaskIntoConstraints="NO" id="DME-Ri-0jl">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="URO-3b-c1x">
-                                <rect key="frame" x="0.0" y="520" width="320" height="48"/>
+                                <rect key="frame" x="0.0" y="976" width="768" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="CNo-De-OJV"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="dDb-HF-JGG">
-                                <rect key="frame" x="35" y="28" width="170" height="57"/>
+                                <rect key="frame" x="259" y="256" width="170" height="57"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="170" id="iRX-F9-YJH"/>
                                     <constraint firstAttribute="height" constant="57" id="pRh-50-B8L"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="osU-3h-urq">
-                                <rect key="frame" x="30.5" y="118" width="259" height="392"/>
+                                <rect key="frame" x="254.5" y="346" width="259" height="392"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="259" id="0fb-F9-PTY"/>
                                     <constraint firstAttribute="height" constant="392" id="Bun-JT-e5B"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="t8Y-VU-InG">
-                                <rect key="frame" x="51.5" y="133" width="216" height="362"/>
+                                <rect key="frame" x="275.5" y="361" width="216" height="362"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="PCX-SM-goT">
                                         <rect key="frame" x="0.0" y="0.0" width="216" height="66"/>
@@ -245,7 +245,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0UN-V5-bmZ">
-                                <rect key="frame" x="43" y="40" width="154" height="33"/>
+                                <rect key="frame" x="267" y="268" width="154" height="33"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="33" id="uQZ-pf-fo0"/>
                                 </constraints>
@@ -254,7 +254,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Phe-4t-xPa" userLabel="Clear">
-                                <rect key="frame" x="215" y="43" width="98" height="28"/>
+                                <rect key="frame" x="439" y="271" width="98" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="hw7-lh-joQ"/>
                                     <constraint firstAttribute="width" constant="98" id="us8-oh-ZWc"/>
